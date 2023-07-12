@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage
+    xmlns:local="clr-namespace:Teste.Views"
+    xmlns:tpo="clr-namespace:Teste.Views.Elements"
+
+    xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="Teste.Views.TabbedHome"
+            BarBackgroundColor="#513EC0"
+            SelectedTabColor="#F0F6FB"
+            UnselectedTabColor="#F0F6FB">
+           
+  <!--Pages can be added as references or inline-->
+  <local:HomePageView Title="Αρχική" />
+  <ContentPage Title="Προσθήκη" >
+      <Label Text="Content of page" HorizontalOptions="Center" VerticalOptions="Center"/>
+  </ContentPage>
+      <tpo:TopBarComponent Title="Τοποθεσία"/>
+
+  <ContentPage Title="Ειδοποιήσεις" />
+</TabbedPage>
